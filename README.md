@@ -60,7 +60,7 @@ The project combines:
 
 ## Dashboard Preview
 
-![Dashboard Preview](E-commerce Performance Dashboard.png)
+![Dashboard Preview](dashboard.png)
 
 ---
 
