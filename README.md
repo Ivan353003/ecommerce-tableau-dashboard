@@ -1,4 +1,4 @@
-# E-commerce Sales & User Behavior Dashboard
+# E-commerce Data Analytics Project
 
 ## Live Dashboard
 [View Tableau Dashboard](https://public.tableau.com/views/E-commercePerformanceDashboard_17780761009860/E-commercePerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -15,6 +15,17 @@ The project combines:
 - Statistical testing
 - Interactive Tableau visualizations
 
+## SQL Data Extraction
+
+The dataset was created using SQL joins across multiple Google BigQuery tables:
+- sessions
+- session parameters
+- accounts
+- orders
+- products
+
+Special attention was paid to selecting appropriate join types in order to preserve all sessions and orders, including data from unregistered users.
+
 ---
 
 ## Dashboard Features
@@ -29,6 +40,14 @@ The project combines:
 - Traffic distribution by source
 - Traffic trends by channel
 - Correlation analysis between traffic channels
+
+## Statistical Methods Used
+
+- Pearson Correlation Analysis
+- Mann-Whitney U Test
+- P-value significance analysis
+- Distribution analysis
+- Correlation analysis between continents, traffic channels, and product categories
 
 ### User Behavior Analysis
 - Comparison of verified vs unverified users
@@ -48,12 +67,19 @@ The project combines:
 
 ## Technologies Used
 
+### Data Extraction
+- Google BigQuery
+- SQL
+
+### Data Analysis
 - Python
 - Pandas
+- NumPy
+- SciPy
+
+### Visualization
 - Matplotlib
 - Seaborn
-- SciPy
-- Google BigQuery
 - Tableau Public
 
 ---
